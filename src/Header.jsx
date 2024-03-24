@@ -9,6 +9,11 @@ function Header(){
                     <li>Email: </li>
                 </ul>
             </div>
+            <nav className="main-nav">
+                <a href="">Menu</a>
+                <a href="">Specials</a>
+                <a href="">About</a>
+            </nav>
         </header>
     );
 

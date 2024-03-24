@@ -10,7 +10,7 @@ function Body(){
     return(
         <table className="main-table">
             <thead>
-                <tr>
+                <tr className="data-head-row">
                     <th><h2>Pizzas</h2></th>
                     <th><h2>Price</h2></th>
                 </tr>
@@ -20,30 +20,29 @@ function Body(){
                  Pizza.map( pizza => {
                     return(
                        <>
-                       <tr>
-                         <td>
-                             {pizza.name}
+                       <tr className="data-row">
+                         <td className="pizza-data-field">
+                             <b>{pizza.name}</b>
                              <br />
-                             {pizza.toppings}
-                             <br />
+                             <i>{pizza.toppings}</i>
                              <br />
                          </td>
-                          <td>
-                            <table>
-                                <tr>
-                                    <td>small</td>
-                                    <td>meduim</td>
-                                    <td>large</td>
-                                </tr>
-                                <tr>
-                                    <td>R {small}</td>
-                                    <td>R {medium}</td>
-                                    <td>R {large}</td>
-                                </tr>
-                            </table>  
-                          </td>
-                          <td>
-                             
+                          <td className="price-data-field">
+                                <div>
+                                    <b>Small</b>
+                                    <br />
+                                    <b>R</b> {small}
+                                </div>
+                                <div>
+                                    <b>Meduim</b>
+                                    <br />
+                                    <b>R</b> {medium}
+                                </div>
+                                <div>
+                                    <b>Large</b>
+                                    <br />
+                                    <b>R</b> {large}
+                                </div>
                           </td>
                       </tr>
                       </>

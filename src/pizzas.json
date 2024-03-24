@@ -1,18 +1,26 @@
 [
     {
-     "name": "PIZZA WORLD SPECIAL",
-     "toppings": "ham, bacon, salami, mushroom"    
+     "name": "TEXAS",
+     "toppings": "Bacon"    
     },
     {
-     "name": "HAWAIIN",
-     "toppings": "ham, pinapple" 
+     "name": "HUNGARY",
+     "toppings": "Ham" 
     },
     {
      "name": "ITALY",
      "toppings": "Salami"
     },
     {
-     "name": "TEXAS",
-     "toppings": "Bacon"
+     "name": "FLORIDA",
+     "toppings": "Bacon, Pinappel, Sweet and sour sauce, Mushroom, Pepper dew"
+    },
+    {
+     "name": "HAWAIIN",
+     "toppings": "Ham, Pinappel"
+    },
+    {
+     "name": "PIZZA WORLD SPECIAL",
+     "toppings": "Ham, Bacon, Salami, Mushroom"
     }
 ]
