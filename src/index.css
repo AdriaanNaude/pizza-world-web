@@ -7,7 +7,6 @@
 }
 @media screen and (max-width: 480px){
     .main-header{
-        border: 2px solid pink;
         grid-template-columns: repeat(1, 1fr);
     }
 }
