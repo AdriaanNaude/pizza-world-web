@@ -11,15 +11,17 @@
     }
 }
 .main-name{
+    border: 2px solid blue;
     color: blue;
 }
 .contact{
-    margin: 0;
-    padding: 0;
-
+    border: 2px solid blue;
+    justify-content: center;
 }
 .contact li{
     list-style-type: none;
+    position: relative;
+    left: -10px;
 }
 
 .main-nav a{

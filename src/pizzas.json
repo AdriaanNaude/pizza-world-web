@@ -1,26 +1,114 @@
 [
-    {
-     "name": "TEXAS",
-     "toppings": "Bacon"    
+    {   
+     "name": "ITALY",
+     "toppings": "Salami"
     },
     {
      "name": "HUNGARY",
      "toppings": "Ham" 
     },
     {
-     "name": "ITALY",
-     "toppings": "Salami"
+     "name": "TEXAS",
+     "toppings": "Bacon"    
     },
     {
      "name": "FLORIDA",
-     "toppings": "Bacon, Pinappel, Sweet and sour sauce, Mushroom, Pepper dew"
+     "toppings": "Bacon, Pinapple, Sweet & Sour sauce, Mushroom, Peppadew"
+    },
+    {
+     "name": "MIAMI",
+     "toppings": "Chicken, Mushroom, Pinapple, Peppadew"
+    },
+    {
+     "name": "CHICKEN SUPREME",
+     "toppings": "Chicken, Mushroom, Onions, Greenpepper, Mayonnaise"
+    },
+    {
+     "name": "FLORENTINA",
+     "toppings": "Chicken, Mayonnaise" 
+    },
+    {
+     "name": "CHILLI CHICKEN",
+     "toppings": "Chicken, Greenpepper, Onions, Chilli sauce"
     },
     {
      "name": "HAWAIIN",
-     "toppings": "Ham, Pinappel"
+     "toppings": "Ham, Pinapple"
+    },
+    {
+     "name": "MAURITIUS",
+     "toppings": "Bacon, Pinapple, Mushroom"
+    },
+    {
+     "name": "SEYCELLE",
+     "toppings": "Salami, Pinapple, Feta"
+    },
+    {
+     "name": "TAHITI",
+     "toppings": "Ham, Banana" 
+    },
+    {
+     "name": "SWISS",
+     "toppings": "Bacon, Mushroom"
     },
     {
      "name": "PIZZA WORLD SPECIAL",
      "toppings": "Ham, Bacon, Salami, Mushroom"
+    },
+    {
+     "name": "SUPER SPECIAL",
+     "toppings": "Bacon, Ham, Salami, Mushroom, Shrimps"
+    },
+    {
+     "name": "FOUR NATIONS",
+     "toppings": "Bacon, Ham, Salami, Mushroom, Olives, Anchovies"
+    },
+    {
+     "name": "SICILY",
+     "toppings": "Bacon, Spinach, Feta"
+    },
+    {
+     "name": "RIO",
+     "toppings": "Bacon, Asparagus, Feta"
+    },
+    {
+     "name": "CARIBBEAN",
+     "toppings": "Bacon, Greenpepper, Avocado (when available)"
+    },
+    {
+     "name": "CAMPANIA",
+     "toppings": "Mince, Mushroom, Onions"
+    },
+    {
+     "name": "PITA PIZZA",
+     "toppings": "Cheese,  Garlic, Mixed Herbs"
+    },
+    {
+     "name": "HOT ROD",
+     "toppings": "Bacon, Mince, Onions, Greenpepper, Chilli sauce"
+    },
+    {
+     "name": "VENIC",
+     "toppings": "Russian, Chilli sauce"
+    },
+    {
+     "name": "MEXICO",
+     "toppings": "Russian, Chilli sauce"
+    },
+    {
+     "name": "PISA",
+     "toppings": "Salami, Mushroom, Garlic"
+    },
+    {
+     "name": "DALLAS",
+     "toppings": "Bacon, Mince, Feta, Mustard sauce"
+    },
+    {
+     "name": "GREECE",
+     "toppings": "Salami, Feta, Olives"
+    },
+    {
+     "name": "GERMANY",
+     "toppings": "Ham, Mushroom"
     }
 ]
