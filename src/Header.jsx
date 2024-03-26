@@ -1,19 +1,19 @@
 function Header(){
 
-    const phoneNumber = 798093820918;
+    const phoneNumber = "0768545124";
 
     return(
         <header className="main-header">
             <h1 className="main-name">Pizza World Porterville</h1>
             <div className="contact">
-                Phone: {phoneNumber}
+                <b>Phone:</b> {phoneNumber}
             </div>
-            <nav className="main-nav">
+            {/*<nav className="main-nav">
                 <a href="">Menu</a>
                 <a href="">Specials</a>
                 <a href="">Extra</a>
                 <a href="">About</a>
-            </nav>
+            </nav>*/}
         </header>
     );
 

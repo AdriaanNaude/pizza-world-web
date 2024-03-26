@@ -11,11 +11,10 @@
     }
 }
 .main-name{
-    border: 2px solid blue;
     color: blue;
+    padding: 1rem;
 }
 .contact{
-    border: 2px solid blue;
     justify-content: center;
     padding: 2rem;
     margin: 1rem;
@@ -59,6 +58,9 @@
         flex: 1;
         flex-direction: column;
     }
+    .price-data-field div{
+        margin: 5px 0 5px 0;
+    }
 }
 .data-head-row{
     display: grid;
@@ -76,7 +78,7 @@
 .price-data-field{
     display: flex;
     padding: 1rem;
-    justify-content: center;
+    justify-content: space-evenly;
     flex: 2;
     order: 2;
 }
