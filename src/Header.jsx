@@ -6,10 +6,7 @@ function Header(){
         <header className="main-header">
             <h1 className="main-name">Pizza World Porterville</h1>
             <div className="contact">
-                <ul>
-                    <li>Phone: {phoneNumber}</li>
-                    <li>Email: {}</li>
-                </ul>
+                Phone: {phoneNumber}
             </div>
             <nav className="main-nav">
                 <a href="">Menu</a>

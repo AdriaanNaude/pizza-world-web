@@ -5,7 +5,7 @@
     padding: 1rem;
     text-align: center;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     .main-header{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -17,15 +17,27 @@
 .contact{
     border: 2px solid blue;
     justify-content: center;
+    padding: 2rem;
+    margin: 1rem;
 }
-.contact li{
-    list-style-type: none;
-    position: relative;
-    left: -10px;
-}
-
 .main-nav a{
     margin: 1rem;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 500px){
+
+    .main-name{
+        margin: 1rem;
+    }
+    .contact{
+        margin: 1rem;
+    }
+    .main-nav{
+        display: flex;
+    }
+
 }
 
 /* Body */
@@ -36,22 +48,41 @@
     margin: 1rem 0 1rem 0;
     text-align: center;
 }
+@media screen and (max-width: 600px){
+    .main-table{
+        padding: 1rem;
+    }
+    .pizza-data-field{
+        flex: 1;
+    }
+    .price-data-field{
+        flex: 1;
+        flex-direction: column;
+    }
+}
 .data-head-row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 .data-row{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
 }
+
 .pizza-data-field{
-    padding: 2rem;
+    padding: 1rem;
+    flex: 2;
+    order: 1;
 }
 .price-data-field{
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    flex: 2;
+    order: 2;
 }
+
+/* footer */
+
 .main-footer{
     border: 2px solid blue;
     text-align: center;
