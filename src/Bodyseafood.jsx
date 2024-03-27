@@ -33,7 +33,7 @@ function Bodyseafood(){
                                     <b>R</b> {small}
                                 </div>
                                 <div>
-                                    <b>Meduim</b>
+                                    <b>Medium</b>
                                     <br />
                                     <b>R</b> {medium}
                                 </div>
