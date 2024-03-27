@@ -4,9 +4,12 @@ function Footer(){
 
     return(
         <footer className="main-footer">
-            <p>
+            <div>
                 &copy; {date} pizzaworldporterville
-            </p>
+            </div>
+            <div>
+                <img className="facebook-img" src="" alt="faceBook logo" />Pizza world
+            </div>
         </footer>
     );
 

@@ -3,7 +3,7 @@ import Footer from './Footer.jsx'
 import Body from './Body.jsx'
 import Bodyseafood from './Bodyseafood.jsx'
 import Bodyveg from './Bodyveg.jsx'
-
+import Toppings from './Toppings.jsx'
 function App() {
     return(
         <>
@@ -11,6 +11,7 @@ function App() {
             <Body/>
             <Bodyseafood/>
             <Bodyveg/>
+            <Toppings/>
             <Footer/>
         </>
     );

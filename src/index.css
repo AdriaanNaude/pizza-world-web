@@ -86,7 +86,14 @@
 /* footer */
 
 .main-footer{
+    display: flex;
+    justify-content: space-evenly;
     border: 2px solid blue;
     text-align: center;
     padding: 1rem;
+}
+@media screen and (max-width: 600px){
+    .main-footer{
+        flex-direction: column;
+    }
 }
