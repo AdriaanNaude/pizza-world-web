@@ -6,7 +6,7 @@ function Toppings(){
     const large = 15;
 
     return(
-        <table className="main-table">
+        <table className="main-table toppings-section">
             <thead>
                 <tr>
                     <td><h2>Toppings</h2></td>
