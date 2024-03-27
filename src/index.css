@@ -6,6 +6,7 @@
     border: 2px solid blue;
     padding: 1rem;
     justify-content: space-evenly;
+    text-align: center;
 }
 @media screen and (max-width: 600px){
     .main-header{
@@ -75,7 +76,10 @@
 }
 
 .pizza-data-field{
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1rem 2rem 1rem;
     flex: 2;
     order: 1;
 }
