@@ -1,5 +1,5 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
+import Header from './Header/Header.jsx'
+import Footer from './Footer/Footer.jsx'
 import Body from './Body.jsx'
 import Bodyseafood from './Bodyseafood.jsx'
 import Bodyveg from './Bodyveg.jsx'

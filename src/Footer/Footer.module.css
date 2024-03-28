@@ -1,0 +1,29 @@
+.main_footer{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid blue;
+    text-align: center;
+    padding: 1rem;
+}
+.main_footer div{
+    align-self: center;
+    padding: 1rem;
+}
+.main_footer .footerinfo_two{
+    display: flex;
+    align-items: center;
+}
+.facebook_img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    padding: 1rem;
+}
+@media screen and (max-width: 600px){
+    .main_footer{
+        flex-direction: column;
+    }
+}

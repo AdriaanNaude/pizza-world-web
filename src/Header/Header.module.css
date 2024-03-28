@@ -1,0 +1,42 @@
+.main_header{
+    display: flex;
+    border: 2px solid blue;
+    padding: 1rem;
+    justify-content: space-evenly;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .main_header{
+        flex-direction: column;
+    }
+}
+.main_name{
+    color: blue;
+    padding: 1rem;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.main_nav a{
+    margin: 1rem;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 500px){
+
+    .main_name{
+        margin: 1rem;
+    }
+    .contact{
+        margin: 1rem;
+    }
+    .main_nav{
+        display: flex;
+    }
+
+}

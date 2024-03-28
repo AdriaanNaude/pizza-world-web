@@ -1,48 +1,7 @@
 :Root{
     background-color: #c6c6c6;
 }
-.main-header{
-    display: flex;
-    border: 2px solid blue;
-    padding: 1rem;
-    justify-content: space-evenly;
-    text-align: center;
-}
-@media screen and (max-width: 600px){
-    .main-header{
-        flex-direction: column;
-    }
-}
-.main-name{
-    color: blue;
-    padding: 1rem;
-}
-.contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-}
-.main-nav a{
-    margin: 1rem;
-    width: 100%;
 
-}
-
-@media screen and (max-width: 500px){
-
-    .main-name{
-        margin: 1rem;
-    }
-    .contact{
-        margin: 1rem;
-    }
-    .main-nav{
-        display: flex;
-    }
-
-}
 
 /* Body */
 
@@ -107,30 +66,4 @@
 
 /* footer */
 
-.main-footer{
-    display: flex;
-    justify-content: space-evenly;
-    border: 2px solid blue;
-    text-align: center;
-    padding: 1rem;
-}
-.main-footer div{
-    align-self: center;
-    padding: 1rem;
-}
-.main-footer .footerinfo-two{
-    display: flex;
-    align-items: center;
-}
-.facebook-img{
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
 
-}
-
-@media screen and (max-width: 600px){
-    .main-footer{
-        flex-direction: column;
-    }
-}
