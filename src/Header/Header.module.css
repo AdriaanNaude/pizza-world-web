@@ -1,9 +1,9 @@
 .main_header{
     display: flex;
     border: 2px solid blue;
-    padding: 1rem;
     justify-content: space-evenly;
     text-align: center;
+    flex-wrap: wrap;
 }
 @media screen and (max-width: 600px){
     .main_header{
@@ -15,18 +15,17 @@
     padding: 1rem;
 }
 .contact{
-    display: flex;
+    align-self: center;
     justify-content: center;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 10px;
+    width: 40%;
 }
-.main_nav a{
-    margin: 1rem;
-    width: 100%;
-
+.main_nav{
+    align-self: center;
+    margin-bottom: 1rem;
 }
-
 @media screen and (max-width: 500px){
 
     .main_name{

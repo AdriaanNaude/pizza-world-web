@@ -8,10 +8,11 @@ function Bodyseafood(){
 
 
     return(
+        <>
         <table className="main-table">
             <thead>
                 <tr>
-                    <td><h2>Seafood</h2></td>
+                    <td><h2 id="seafood_menu">Seafood</h2></td>
                 </tr>
             </thead>
             <tbody>
@@ -49,7 +50,11 @@ function Bodyseafood(){
                   })
                 }
             </tbody>
+            <div>
+                <p>Back to top</p>
+            </div>
         </table>
+        </>
     );
 }
 

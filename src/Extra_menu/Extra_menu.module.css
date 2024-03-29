@@ -1,0 +1,15 @@
+.menu_one, .menu_two, .menu_three {
+    Border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+.menu_two p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

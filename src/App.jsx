@@ -1,17 +1,18 @@
+import { Route, Routes } from 'react-router-dom'
+
 import Header from './Header/Header.jsx'
 import Footer from './Footer/Footer.jsx'
-import Body from './Body.jsx'
-import Bodyseafood from './Bodyseafood.jsx'
-import Bodyveg from './Bodyveg.jsx'
-import Toppings from './Toppings.jsx'
+import { Menu } from './pages/Menu.jsx'
+import { Extra } from './pages/Extra.jsx'
+
 function App() {
     return(
         <>
             <Header/>
-            <Body/>
-            <Bodyseafood/>
-            <Bodyveg/>
-            <Toppings/>
+            <Routes>
+                <Route path='/pizza-world-web/' element={<Menu />} />
+                <Route path='/pizza-world-web/extra' element={<Extra />} />
+            </Routes>
             <Footer/>
         </>
     );
