@@ -1,15 +1,40 @@
 import styles from './Extra_menu.module.css'
 function Extra_menu(){
+
+    const chick_burger_price = 40;
+    const beef_burger_price = 50;
+
     return(
         <>
-        <div className={styles.menu_one}>
-            <h2>Burgers</h2>
-            <p>
-                <b>Chicken Burger</b> <b>R</b>40
-                <br />
-                <b>Beef Burger</b> <b>R</b>50
-            </p>
-        </div>
+        <table className={styles.menu_one}>
+            <thead>
+                <tr className={styles.data_head_row}>
+                    <th>
+                        <h2>Burgers</h2>
+                    </th>
+                    <th>
+                        <h2>Price</h2>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr className={styles.data_row}>
+                         <td className={styles.burger_data_field}>
+                             <b>Chicken Burger</b>
+                             <b>Beef Burger</b>
+                         </td>
+                          <td className={styles.price_data_field}>
+                                <div>
+                                    <b>R</b> {chick_burger_price}
+                                </div>
+                                <div>
+                                    <b>R</b> {beef_burger_price}
+                                </div>
+                          </td>
+                      </tr>
+            </tbody>
+        </table>
+
         <div className={styles.menu_two}>
             <h2>Chips</h2><p>
                 <b>R 10</b>
