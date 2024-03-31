@@ -4,38 +4,48 @@
     justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
+    padding: 10px;
 }
 @media screen and (max-width: 600px){
     .main_header{
         flex-direction: column;
+        padding: 5px;
     }
 }
 .main_name{
     color: blue;
-    padding: 1rem;
 }
 .contact{
     align-self: center;
     justify-content: center;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    width: 40%;
+    width: 50%;
 }
 .main_nav{
     align-self: center;
     margin-bottom: 1rem;
 }
 @media screen and (max-width: 500px){
-
+    
     .main_name{
-        margin: 1rem;
+        margin: 10px;
+    }
+    .main_header h1{
+        font-size: 25px;
     }
     .contact{
-        margin: 1rem;
+        flex-grow: 2;
+    }
+    .phone{
+        font-size: 15px;
     }
     .main_nav{
         display: flex;
+        margin: 5px;
     }
 
+}
+.phone{
+    font-size: 1.5em;
 }

@@ -1,8 +1,6 @@
 :Root{
     background-color: #c6c6c6;
 }
-
-
 /* Body */
 
 .main-table{
@@ -63,7 +61,20 @@
     }
 }
 
-
-/* footer */
-
-
+a{
+    margin: 10px;
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+}
+a:active{
+    color: white;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+}

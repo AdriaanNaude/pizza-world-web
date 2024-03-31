@@ -18,10 +18,7 @@
     width: 30px;
     height: 30px;
 }
-a{
-    text-decoration: none;
-    padding: 1rem;
-}
+
 @media screen and (max-width: 600px){
     .main_footer{
         flex-direction: column;

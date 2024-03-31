@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link'
 import Pizza from './pizzas-vegetarian.json';
 
 function Bodyveg(){
@@ -11,7 +12,7 @@ function Bodyveg(){
         <table className="main-table">
             <thead>
                 <tr>
-                    <td><h2>Vegetarian</h2></td>
+                    <td><h2 id="veg_menu">Vegetarian</h2></td>
                 </tr>
             </thead>
             <tbody>
@@ -49,6 +50,11 @@ function Bodyveg(){
                   })
                 }
             </tbody>
+            <div>
+                <p>
+                    <HashLink smooth to='#main_heading'>Back to top</HashLink>
+                </p>
+            </div>
         </table>
     );
 }

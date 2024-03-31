@@ -1,0 +1,6 @@
+.bookmark_menu{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid blue;
+    margin-top: 1rem;
+}

@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link'
 import Topping from './toppings.json'
 function Toppings(){
 
@@ -9,7 +10,7 @@ function Toppings(){
         <table className="main-table toppings-section">
             <thead>
                 <tr>
-                    <td><h2>Toppings</h2></td>
+                    <td><h2 id="toppings_menu">Toppings</h2></td>
                 </tr>
             </thead>
             <tbody>
@@ -44,6 +45,11 @@ function Toppings(){
                   })
                 }
             </tbody>
+            <div>
+                <p>
+                    <HashLink smooth to='#main_heading'>Back to top</HashLink>
+                </p>
+            </div>
         </table>
     );
 }

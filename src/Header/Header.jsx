@@ -8,9 +8,9 @@ function Header(){
     return(
         <>
         <header className={styles.main_header}>
-            <h1 className={styles.main_name}>Pizza World Porterville</h1>
+            <h1 id="main_heading" className={styles.main_name}>Pizza World Porterville</h1>
             <div className={styles.contact}>
-                <b>Phone:</b> {phoneNumber}
+                <b className={styles.phone}>Phone: {phoneNumber}</b>
             </div>
             <nav className={styles.main_nav}>
                 <Link to="/pizza-world-web/">Menu</Link>
