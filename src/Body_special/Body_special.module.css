@@ -1,0 +1,16 @@
+.special_body{
+    display: flex;
+    border: 2px solid blue;
+    margin: 1rem;
+    padding: 1rem; 
+}
+.special_one{
+    border-radius: 10%;
+    background-color: #b72c2c;
+    padding: 1rem;
+}
+.special_two{
+    border-radius: 10%;
+    background-color: #b5b338;
+    padding: 1rem;
+}
