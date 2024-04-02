@@ -14,7 +14,7 @@ function Header(){
             </div>
             <nav className={styles.main_nav}>
                 <Link to="/pizza-world-web/">Menu</Link>
-                {/*<Link to="/specials">Specials</Link>*/}
+                {/*<Link to="pizza-world-web/special">Specials</Link>*/}
                 <Link to="/pizza-world-web/extra">Extra</Link>
                 {/*<Link to="/about">About</Link>*/}
             </nav>

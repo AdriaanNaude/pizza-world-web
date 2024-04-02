@@ -11,8 +11,8 @@ function Bodyveg(){
     return(
         <table className="main-table">
             <thead>
-                <tr>
-                    <td><h2 id="veg_menu">Vegetarian</h2></td>
+                <tr className="data-head-row">
+                    <th><h2 id="veg_menu">Vegetarian</h2></th>
                 </tr>
             </thead>
             <tbody>
@@ -50,7 +50,7 @@ function Bodyveg(){
                   })
                 }
             </tbody>
-            <div>
+            <div className="back_to">
                 <p>
                     <HashLink smooth to='#main_heading'>Back to top</HashLink>
                 </p>

@@ -51,7 +51,7 @@ function Body(){
                   })
                 }
             </tbody>
-            <div>
+            <div className="back_to">
                 <p>
                     <HashLink smooth to='#main_heading'>Back to top</HashLink>
                 </p>

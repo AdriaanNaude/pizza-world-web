@@ -12,8 +12,8 @@ function Bodyseafood(){
         <>
         <table className="main-table">
             <thead>
-                <tr>
-                    <td><h2 id="seafood_menu">Seafood</h2></td>
+                <tr className="data-head-row">
+                    <th><h2 id="seafood_menu">Seafood</h2></th>
                 </tr>
             </thead>
             <tbody>
@@ -51,7 +51,7 @@ function Bodyseafood(){
                   })
                 }
             </tbody>
-            <div>
+            <div className="back_to">
                 <p>
                     <HashLink smooth to='#main_heading'>Back to top</HashLink>
                 </p>

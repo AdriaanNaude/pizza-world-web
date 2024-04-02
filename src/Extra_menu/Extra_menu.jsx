@@ -1,8 +1,12 @@
 import styles from './Extra_menu.module.css'
 function Extra_menu(){
 
+    const cheese_burger_price = 52;
+    const hawaiin_burger_price = 60;
     const chick_burger_price = 40;
+    const rib_burger_price = 45;
     const beef_burger_price = 50;
+    const bielie_burger_price = 65;
 
     return(
         <>
@@ -20,15 +24,31 @@ function Extra_menu(){
             <tbody>
                 <tr className={styles.data_row}>
                          <td className={styles.burger_data_field}>
+                             <b>Cheese Burger </b>
+                             <b>Hawaiin Burger</b>
                              <b>Chicken Burger</b>
+                             <b>Rib Burger</b>
                              <b>Beef Burger</b>
+                             <b>Bielie Burger</b>
                          </td>
                           <td className={styles.price_data_field}>
+                                <div>
+                                    <b>R</b> {cheese_burger_price}
+                                </div>
+                                <div>
+                                    <b>R</b> {hawaiin_burger_price}
+                                </div>
                                 <div>
                                     <b>R</b> {chick_burger_price}
                                 </div>
                                 <div>
+                                    <b>R</b> {rib_burger_price}
+                                </div>
+                                <div>
                                     <b>R</b> {beef_burger_price}
+                                </div>
+                                 <div>
+                                    <b>R</b> {bielie_burger_price}
                                 </div>
                           </td>
                       </tr>

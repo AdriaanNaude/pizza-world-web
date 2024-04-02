@@ -1,7 +1,7 @@
 .main_footer{
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid blue;
+    border-top: 3px solid blue;
     text-align: center;
     padding: 1rem;
 }

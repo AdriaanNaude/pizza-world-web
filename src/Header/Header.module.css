@@ -1,6 +1,6 @@
 .main_header{
     display: flex;
-    border: 2px solid blue;
+    border-bottom: 3px solid blue;
     justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
@@ -24,7 +24,7 @@
 }
 .main_nav{
     align-self: center;
-    margin-bottom: 1rem;
+    margin: 1rem 0 1rem 0;
 }
 @media screen and (max-width: 500px){
     
