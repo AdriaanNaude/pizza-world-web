@@ -1,6 +1,27 @@
 .bookmark_menu{
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid blue;
+    border-top: 2px outset blue;
+    border-bottom: 2px outset blue;
+    border-radius: 20px 20px 20px 20px;
     margin-top: 1rem;
+}
+.menu_link{
+    margin: 10px;
+    text-decoration: none;
+    padding: 8px;
+}
+.menu_link{
+    color: blue;
+}
+.menu_link:active{
+    color: blue;
+}
+.menu_link:visited{
+    color: blue;
+}
+.menu_link:hover{
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
 }

@@ -10,7 +10,7 @@ function Footer(){
                 &copy; {date} pizzaworldporterville
             </div>
             <div className={styles.footerinfo_two}>
-                <img className={styles.facebook_img} src={logo} alt="faceBook logo" /> <a href="https://www.facebook.com/PizzaWorldPorterville?mibextid=ZbWKwL">Pizza World Porterville</a>
+                <img className={styles.facebook_img} src={logo} alt="faceBook logo" /> <a className={styles.facelink} href="https://www.facebook.com/PizzaWorldPorterville?mibextid=ZbWKwL">Pizza World Porterville</a>
             </div>
         </footer>
     );

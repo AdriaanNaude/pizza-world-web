@@ -1,6 +1,8 @@
 .main_header{
     display: flex;
-    border-bottom: 3px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 0 0 30px 0;
     justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
@@ -11,9 +13,6 @@
         flex-direction: column;
         padding: 5px;
     }
-}
-.main_name{
-    color: blue;
 }
 .contact{
     align-self: center;
@@ -48,4 +47,22 @@
 }
 .phone{
     font-size: 1.5em;
+}
+
+.nav_link{
+    margin: 10px;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+}
+.nav_link:active{
+    color: white;
+}
+.nav_link:visited{
+    color: white;
+}
+.nav_link:hover{
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
 }

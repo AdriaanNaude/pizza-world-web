@@ -9,7 +9,7 @@
 .main-table{
     display: flex;
     flex-direction: column;
-    border: 2px solid blue;
+    border: 2px outset blue;
     margin: 1rem;
     padding: 1rem;
 }
@@ -43,6 +43,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 1rem;
     flex: 2;
     order: 1;
@@ -51,6 +52,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     padding: 1rem;
     flex: 2;
     order: 2;
@@ -73,15 +75,14 @@
         flex-direction: row;        
     }
 }
-
 a{
     margin: 10px;
     text-decoration: none;
     padding: 8px;
-    color: black;
+    color: blue;
 }
 a:active{
-    color: white;
+    color: blue;
 }
 a:visited{
     color: blue;

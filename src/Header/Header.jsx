@@ -13,9 +13,9 @@ function Header(){
                 <b className={styles.phone}>Phone: {phoneNumber}</b>
             </div>
             <nav className={styles.main_nav}>
-                <Link to="/pizza-world-web/">Menu</Link>
+                <Link className={styles.nav_link} smooth to="/pizza-world-web/">Menu</Link>
                 {/*<Link to="pizza-world-web/special">Specials</Link>*/}
-                <Link to="/pizza-world-web/extra">Extra</Link>
+                <Link className={styles.nav_link} smooth to="/pizza-world-web/extra">Extra</Link>
                 {/*<Link to="/about">About</Link>*/}
             </nav>
         </header>

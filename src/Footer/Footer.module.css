@@ -1,7 +1,9 @@
 .main_footer{
     display: flex;
     justify-content: space-evenly;
-    border-top: 3px solid blue;
+    background-color:  blue;
+    border-radius: 30px 0 0 0;
+    color: white;
     text-align: center;
     padding: 1rem;
 }
@@ -14,6 +16,7 @@
     align-items: center;
 }
 .facebook_img{
+    border: 1px solid white;
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -23,4 +26,22 @@
     .main_footer{
         flex-direction: column;
     }
+}
+.facelink{
+    margin: 10px;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+}
+
+.facelink:active{
+    color: white;
+}
+.facelink:visited{
+    color: white;
+}
+.facelink:hover{
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
 }

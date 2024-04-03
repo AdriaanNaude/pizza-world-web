@@ -1,0 +1,26 @@
+[
+    {
+    "name":"Cheese Burger",
+    "price": 52
+    },
+    {
+    "name":"Hawaiin Burger",
+    "price": 60
+    },
+    {
+    "name":"Chicken Burger",
+    "price":40
+    },
+    {
+    "name":"Rib Burger",
+    "price":45
+    },
+    {
+    "name":"Beef Burger",
+    "price":50
+    },
+    {
+    "name":"Bielie Burger",
+    "price":65
+    }
+] 
