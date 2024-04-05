@@ -1,5 +1,7 @@
 .menu_one, .menu_two, .menu_three {
     Border: 2px outset blue;
+    Border-radius: 0 20px 0 20px;
+    box-shadow: 2px 2px 3px grey; 
     display: flex;
     flex-direction: column;
     text-align: center;

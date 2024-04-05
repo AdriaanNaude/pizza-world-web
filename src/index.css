@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: column;
     border: 2px outset blue;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 2px 2px 3px grey;
     margin: 1rem;
     padding: 1rem;
 }
