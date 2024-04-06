@@ -2,3 +2,10 @@
 
 This is the wesite for the buissness
 Pizza World Porterville
+
+## Website pages
+
+- Menu
+- Extra
+- Specials
+- About
