@@ -9,3 +9,8 @@ Pizza World Porterville
 - Extra
 - Specials
 - About
+
+## Languages
+
+- Afrikaans
+- English
