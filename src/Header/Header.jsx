@@ -16,7 +16,7 @@ function Header(){
                 <Link className={styles.nav_link} smooth to="/pizza-world-web/">Menu</Link>
                 {/*<Link to="pizza-world-web/special">Specials</Link>*/}
                 <Link className={styles.nav_link} smooth to="/pizza-world-web/extra">Extra</Link>
-                {/*<Link to="/about">About</Link>*/}
+                <Link className={styles.nav_link} smooth to="pizza-world-web/about">About</Link>
             </nav>
         </header>
         </>
